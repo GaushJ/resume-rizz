@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
     title: 'Resume Wizkid',
     description: 'AI-powered resume optimization tool',
+    icons: {
+        icon: '/logo.png',
+    },
 }
 
 export default function RootLayout({
