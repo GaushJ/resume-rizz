@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Sparkles, Target, Zap, FileText } from "lucide-react";
+import { ArrowRight, Sparkles, Target, Zap } from "lucide-react";
 import Header from "@/components/Header";
 import FileUpload from "@/components/FileUpload";
 import ChatInterface from "@/components/ChatInterface";
@@ -60,7 +60,6 @@ const Index = () => {
       }
 
       // Send message to the appropriate API with DOCX content
-      console.log(docxContent);
       const response = await sendMessage(message, [], docxContent);
       return response;
 
@@ -86,8 +85,8 @@ const Index = () => {
   const features = [
     {
       icon: Target,
-      title: "Smart Job Matching",
-      description: "AI analyzes your resume to find jobs with high interview potential"
+      title: "Fix your resume",
+      description: "AI analyzes your resume and give suggestions to improve it."
     },
     {
       icon: Sparkles,
@@ -125,30 +124,11 @@ const Index = () => {
               <FileUpload onFileUpload={handleFileUpload} uploadedFile={uploadedFile} isParsing={isParsingDocx} />
 
               <div className="mt-6 text-center space-y-4">
-                {uploadedFile ? (
+                {uploadedFile && (
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Button onClick={() => setShowChat(true)} size="lg">
                       Start AI Analysis
                       <ArrowRight className="w-5 h-5 ml-2" />
-                    </Button>
-                    <Button
-                      onClick={() => setShowJobDescription(true)}
-                      size="lg"
-                      variant="outline"
-                    >
-                      Generate Tailored Resume
-                      <FileText className="w-5 h-5 ml-2" />
-                    </Button>
-                  </div>
-                ) : (
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button
-                      onClick={() => setShowJobDescription(true)}
-                      size="lg"
-                      variant="outline"
-                    >
-                      Generate Resume from Job Description
-                      <FileText className="w-5 h-5 ml-2" />
                     </Button>
                   </div>
                 )}
