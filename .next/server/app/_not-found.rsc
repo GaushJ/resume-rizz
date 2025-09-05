@@ -1,0 +1,10 @@
+1:HL["/_next/static/css/8b04a5d01c1ea5a0.css","style",{"crossOrigin":""}]
+0:["0Vq14p8XSluv9uoFszy4S",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8b04a5d01c1ea5a0.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:I[35811,["144","static/chunks/144-4aa62c58af484e79.js","451","static/chunks/451-fe6b44b641b6884e.js","83","static/chunks/83-7d40e7792acbe414.js","185","static/chunks/app/layout-3009f71a54cb2179.js"],""]
+5:I[56954,[],""]
+6:I[7264,[],""]
+7:I[85103,["160","static/chunks/app/not-found-ecfb697594328b1a.js"],""]
+9:I[48297,[],""]
+2:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e8ce0c","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L7",null,{}],"notFoundStyles":[],"childProp":{"current":["$L8",["$","$L9",null,{"propsForComponent":{"params":{}},"Component":"$7","isStaticGeneration":true}],null],"segment":"__PAGE__"},"styles":null}]}]}]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Resume Wizkid"}],["$","meta","3",{"name":"description","content":"AI-powered resume optimization tool"}],["$","link","4",{"rel":"icon","href":"/logo.png"}]]
+8:null
